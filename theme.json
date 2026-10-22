@@ -42,52 +42,72 @@
 			"defaultPalette": false,
 			"duotone": [
 				{
-					"colors": [ "#000000", "#ffffff" ],
-					"name": "Black and White",
+					"colors": [ "#2b2a26", "#f6f1e9" ],
+					"name": "Arang dan Pasir",
 					"slug": "black-and-white"
 				},
 				{
-					"colors": [ "#0000ff", "#ffffff" ],
-					"name": "Primary and White",
+					"colors": [ "#4e5a3c", "#f6f1e9" ],
+					"name": "Zaitun dan Pasir",
 					"slug": "primary-and-white"
 				},
 				{
-					"colors": [ "#000099", "#ffffff" ],
-					"name": "Secondary and White",
+					"colors": [ "#a9502e", "#f6f1e9" ],
+					"name": "Terakota dan Pasir",
 					"slug": "secondary-and-white"
 				}
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(0deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--contrast) 100%)",
-					"name": "Primary to Contrast",
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--base) 0%, var(--wp--preset--color--neutral) 100%)",
+					"name": "Pasir ke Batu",
+					"slug": "base-neutral"
+				},
+				{
+					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--contrast) 100%)",
+					"name": "Zaitun ke Arang",
 					"slug": "primary-contrast"
+				},
+				{
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--accent) 0%, var(--wp--preset--color--stone) 100%)",
+					"name": "Senja Terakota",
+					"slug": "accent-stone"
 				}
 			],
 			"palette": [
 				{
-					"color": "#ffffff",
-					"name": "Base",
+					"color": "#f6f1e9",
+					"name": "Pasir (Base)",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
-					"name": "Contrast",
+					"color": "#2b2a26",
+					"name": "Arang (Contrast)",
 					"slug": "contrast"
 				},
 				{
-					"color": "#0000ff",
-					"name": "Primary",
+					"color": "#4e5a3c",
+					"name": "Zaitun (Primary)",
 					"slug": "primary"
 				},
 				{
-					"color": "#000099",
-					"name": "Secondary",
+					"color": "#363f2a",
+					"name": "Zaitun Tua (Secondary)",
 					"slug": "secondary"
 				},
 				{
-					"color": "#eeeeee",
-					"name": "Neutral",
+					"color": "#a9502e",
+					"name": "Terakota (Accent)",
+					"slug": "accent"
+				},
+				{
+					"color": "#cbbfac",
+					"name": "Batu Hangat (Stone)",
+					"slug": "stone"
+				},
+				{
+					"color": "#ebe3d5",
+					"name": "Pasir Tua (Neutral)",
 					"slug": "neutral"
 				}
 			]
@@ -123,12 +143,12 @@
 			"presets": [
 				{
 					"name": "Light",
-					"shadow": "0 0 50px rgb(10, 10, 10, 0.1);",
+					"shadow": "0 20px 50px rgba(43, 42, 38, 0.12)",
 					"slug": "light"
 				},
 				{
 					"name": "Solid",
-					"shadow": "5px 5px 0 rgb(10, 10, 10, 1)",
+					"shadow": "6px 6px 0 rgba(169, 80, 46, 1)",
 					"slug": "solid"
 				}
 			]
@@ -556,7 +576,8 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--primary)"
+						"background": "var(--wp--preset--color--accent)",
+						"text": "var(--wp--preset--color--base)"
 					}
 				}
 			},
@@ -613,7 +634,7 @@
 				},
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--contrast)"
+						"text": "var(--wp--preset--color--accent)"
 					}
 				}
 			}
