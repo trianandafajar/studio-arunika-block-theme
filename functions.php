@@ -81,6 +81,13 @@ add_action( 'init', 'frost_register_block_styles' );
 function frost_register_block_pattern_categories() {
 
 	register_block_pattern_category(
+		'arunika',
+		array(
+			'label'       => __( 'Studio Arunika', 'frost' ),
+			'description' => __( 'Pola khusus Studio Arunika: hero, layanan, portofolio, alur kerja, dan kontak.', 'frost' ),
+		)
+	);
+	register_block_pattern_category(
 		'frost-page',
 		array(
 			'label'       => __( 'Page', 'frost' ),
