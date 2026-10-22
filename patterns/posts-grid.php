@@ -22,7 +22,7 @@
 				<!-- wp:post-author-name {"isLink":true} /-->
 			</div>
 			<!-- /wp:group -->
-			<!-- wp:post-excerpt {"moreText":"Read More →","excerptLength":20,"fontSize":"small"} /-->
+			<!-- wp:post-excerpt {"moreText":"Baca selengkapnya →","excerptLength":20,"fontSize":"small"} /-->
 		</div>
 		<!-- /wp:group -->
 	<!-- /wp:post-template -->
