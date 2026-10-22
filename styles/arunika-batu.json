@@ -1,0 +1,64 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Arunika Batu",
+	"description": "Varian terang bernuansa batu kapur dengan arang sebagai warna utama dan aksen terakota.",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [ "#262522", "#efebe4" ],
+					"name": "Arang dan Batu Kapur",
+					"slug": "black-and-white"
+				},
+				{
+					"colors": [ "#3b3a35", "#efebe4" ],
+					"name": "Grafit dan Batu Kapur",
+					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#a6532f", "#efebe4" ],
+					"name": "Terakota dan Batu Kapur",
+					"slug": "secondary-and-white"
+				}
+			],
+			"palette": [
+				{
+					"color": "#efebe4",
+					"name": "Batu Kapur (Base)",
+					"slug": "base"
+				},
+				{
+					"color": "#262522",
+					"name": "Arang (Contrast)",
+					"slug": "contrast"
+				},
+				{
+					"color": "#3b3a35",
+					"name": "Grafit (Primary)",
+					"slug": "primary"
+				},
+				{
+					"color": "#22211e",
+					"name": "Grafit Tua (Secondary)",
+					"slug": "secondary"
+				},
+				{
+					"color": "#a6532f",
+					"name": "Terakota (Accent)",
+					"slug": "accent"
+				},
+				{
+					"color": "#bdb4a6",
+					"name": "Batu Hangat (Stone)",
+					"slug": "stone"
+				},
+				{
+					"color": "#e0d9cd",
+					"name": "Batu Muda (Neutral)",
+					"slug": "neutral"
+				}
+			]
+		}
+	}
+}
