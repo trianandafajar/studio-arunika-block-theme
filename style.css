@@ -1,17 +1,20 @@
 /*
-Theme Name: Frost
-Theme URI: https://frostwp.com/
-Author: WP Engine
-Author URI: https://wpengine.com/
-Description: With its clean, minimal design and powerful feature set, Frost enables agencies to build stylish and sophisticated WordPress websites. Frost is a masterpiece of design and functionality. It features a range of valuable patterns, including hero and portfolio sections, prominent call-to-action buttons, and customer testimonials. Whether you’re building a website for your business, personal brand, or creative project, Frost is perfect for anyone looking to launch quickly and efficiently.
-Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, threaded-comments, translation-ready, wide-blocks
+Theme Name: Studio Arunika
+Theme URI: https://github.com/trianandafajar/frost
+Author: trianandafajar
+Author URI: https://github.com/trianandafajar
+Description: Studio Arunika adalah tema blok WordPress untuk studio arsitektur dan desain interior. Palet bernuansa tanah (pasir, batu hangat, zaitun tua, dan aksen terakota), tipografi serif yang anggun untuk judul, serta pola siap pakai untuk hero studio, portofolio proyek, layanan, alur kerja, dan ajakan kontak. Based on Frost by WP Engine (https://github.com/wpengine/frost).
+Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, portfolio, template-editing, threaded-comments, translation-ready, wide-blocks
 Requires at least: 6.9
 Tested up to: 6.9
 Requires PHP: 7.2
-Version: 1.1
+Version: 1.0.0
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: frost
+
+Studio Arunika is a derivative work based on Frost by WP Engine,
+(C) 2022-2025 WP Engine, distributed under the GNU GPL v3.
 */
 
 
